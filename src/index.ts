@@ -104,7 +104,7 @@ const gitSimpleSparsePull = (repository: string, {
       &&
       echo ${targetDir} >> .git/info/sparse-checkout
       &&
-      git pull origin ${branch}
+      git pull origin ${branch} --depth=1
     `.replace(/\n/igm, ''),
     { cwd: outputDir }
   );
