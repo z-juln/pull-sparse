@@ -98,7 +98,7 @@ const gitSimpleSparsePull = (repository: string, {
     `
       git init
       &&
-      git remote add -f origin ${repository}
+      git remote add origin ${repository}
       &&
       git config core.sparsecheckout true
       &&

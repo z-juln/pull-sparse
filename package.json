@@ -1,6 +1,6 @@
 {
   "name": "pull-sparse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "从git/npm远程仓库中，指定要拉取的目录，而不是整个项目拉取",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
